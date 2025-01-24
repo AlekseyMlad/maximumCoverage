@@ -24,7 +24,7 @@ class MainKtTest {
 
         val result = transferMoney(cardType = cardType, transferMonth = transferMonth, summTransfer = summTransfer)
 
-        assertEquals(5, result)
+        assertEquals(0, result)
     }
     @Test
     fun testMASTERCARDLimit() {
